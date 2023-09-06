@@ -10,37 +10,33 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: burlywood;
-
-
+    background: rgb(224, 169, 245);
 }
+
 .container{
     max-width: 600px;
-    background: blue;
+    background-image: linear-gradient(rgb(104, 16, 245),rgb(170, 0, 255));
     border-radius: 10px;
     box-shadow: 15px 15px 15px 15px rgba(0, 0, 0,0.3);
     font-family: sans-serif;
     padding: 35px;
-
 }
 
 .title{
     display: flex;
     align-items: center;
     gap: 10px;
-
-
 }
 
 
 h1{
-    color: white;
+    color: black;
     letter-spacing: 1.5px;
 
 }
 .icon{
     font-size: 45px;
-    color: white;
+    color: black;
 }
 #c,#f,#k{
     display: flex;
